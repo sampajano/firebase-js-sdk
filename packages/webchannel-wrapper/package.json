@@ -17,6 +17,7 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "17.1.0",
     "google-closure-compiler": "20210601.0.0",
     "google-closure-library": "20210406.0.0",
     "gulp": "4.0.2",
@@ -35,5 +36,8 @@
   "typings": "src/index.d.ts",
   "bugs": {
     "url": "https://github.com/firebase/firebase-js-sdk/issues"
+  },
+  "dependencies": {
+    "del": "^6.0.0"
   }
 }
